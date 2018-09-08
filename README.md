@@ -11,12 +11,14 @@ Things you may want to cover:
 * Built on: Ubuntu 18.04 Bionic Beaver
 
 * Configuration:
+ 
  ```  $ rails new thdcode```
 - [ ] gems used
 - [ ] controllers
 - [ ] etc
 
 * Database creation
+
  ```  $ rails g scaffold inventory product:string vendor:string dept:string num:integer```
   - product = product id (figure out how to add: *must be unique*)
   - vendor = vendor name
@@ -24,6 +26,7 @@ Things you may want to cover:
   - num = quantity in stock
 
 * Database initialization
+
 ```   $ rake db:migrate #to migrate```
 ```   $ rails console```
   - to create a new product in inventory:
