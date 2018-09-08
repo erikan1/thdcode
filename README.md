@@ -18,6 +18,7 @@ Ubuntu 18.04 Bionic Beaver
 
  ```  $ rails new thdcode```
 - [ ] gems used
+  - [ ] bootstrap gem
 - [ ] controllers
 - [ ] etc
 

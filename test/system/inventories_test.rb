@@ -16,7 +16,7 @@ class InventoriesTest < ApplicationSystemTestCase
 
     fill_in "Dept", with: @inventory.dept
     fill_in "Num", with: @inventory.num
-    fill_in "Product", with: @inventory.product
+    fill_in "Productid", with: @inventory.productid
     fill_in "Vendor", with: @inventory.vendor
     click_on "Create Inventory"
 
@@ -30,7 +30,7 @@ class InventoriesTest < ApplicationSystemTestCase
 
     fill_in "Dept", with: @inventory.dept
     fill_in "Num", with: @inventory.num
-    fill_in "Product", with: @inventory.product
+    fill_in "Productid", with: @inventory.productid
     fill_in "Vendor", with: @inventory.vendor
     click_on "Update Inventory"
 
