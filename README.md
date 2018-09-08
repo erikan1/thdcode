@@ -11,23 +11,23 @@ Things you may want to cover:
 * Built on: Ubuntu 18.04 Bionic Beaver
 
 * Configuration:
-- rails new thdcode
-- gems used
-- controllers
-- etc
+    rails new thdcode
+- [ ] gems used
+- [ ] controllers
+- [ ] etc
 
 * Database creation
-- rails g scaffold inventory product:string vendor:string dept:string num:integer
--- product = product id (figure out how to add: *must be unique*)
--- vendor = vendor name
--- dept = department
--- num = quantity in stock
+    rails g scaffold inventory product:string vendor:string dept:string num:integer
+  - product = product id (figure out how to add: *must be unique*)
+  - vendor = vendor name
+  - dept = department
+  - num = quantity in stock
 
 * Database initialization
-- rake db:migrate to migrate
-- rails console
-- to create a new product in inventory:
--- Inventory.create(product:"UNIQUE_STRING", vendor:"VENDOR_NAME", dept:"DEPT_NAME", num:QUANTITY_HERE)
+    rake db:migrate to migrate
+    rails console
+  - to create a new product in inventory:
+      Inventory.create(product:"UNIQUE_STRING", vendor:"VENDOR_NAME", dept:"DEPT_NAME", num:QUANTITY_HERE)
 
 * How to run the test suite
 
