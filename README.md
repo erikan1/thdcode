@@ -8,9 +8,11 @@ Things you may want to cover:
 # Ruby version:
 ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
 
-# Rails version: Rails 5.2.1
+# Rails version:
+Rails 5.2.1
 
-# Built on: Ubuntu 18.04 Bionic Beaver
+# Built on:
+Ubuntu 18.04 Bionic Beaver
 
 # Configuration:
  
